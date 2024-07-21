@@ -43,4 +43,12 @@
         vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
     </string>
     <string name="docustore">DocuStore</string>
+    <string name="add_your_passport">Add Your Passport</string>
+    <string name="securely_upload_or_take_a_photo_of_your_passport_to_get_started">Securely upload or take a photo of your passport to get started.</string>
+    <string name="upload_or_take_photo">Upload or Take Photo</string>
+    <string name="enter_passport_number">Enter passport number</string>
+    <string name="pick_a_date">Pick a date</string>
+    <string name="save_passport">Save Passport</string>
+    <string name="search_documents">Search documents...</string>
+    <string name="add_document">Add Document</string>
 </resources>

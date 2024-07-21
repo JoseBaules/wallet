@@ -10,17 +10,17 @@
         android:id="@+id/search_documents"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Search documents..."
+        android:hint="@string/search_documents"
         android:padding="8dp"
         android:layout_alignParentTop="true"
-        android:layout_marginBottom="16dp"/>
+        android:layout_marginBottom="16dp" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv_documents"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-    </androidx.recyclerview.widget.RecyclerView>
+        android:layout_height="match_parent"
+        android:layout_below="@id/search_documents"
+        android:layout_above="@id/fab_add_document" />
 
     <!-- Other UI components like the cards for documents -->
 
@@ -34,6 +34,6 @@
         android:src="@drawable/ic_add"
         app:backgroundTint="#505050"
         app:fabSize="normal"
-        android:contentDescription="Add Document"/>
+        android:contentDescription="@string/add_document" />
 
 </RelativeLayout>

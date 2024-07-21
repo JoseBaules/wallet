@@ -23,6 +23,8 @@ class MainActivity : ComponentActivity() {
         fabAddDocument.setOnClickListener{
 
             //Intent to call addDocument
+            val intent = Intent(this, AddDocumentActivity::class.java)
+            startActivity(intent)
 
 
         }
