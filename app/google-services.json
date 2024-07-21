@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "262302778401",
+    "project_id": "wallet-770c6",
+    "storage_bucket": "wallet-770c6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:262302778401:android:f629e3e4d60cba84f78f60",
+        "android_client_info": {
+          "package_name": "com.example.wallet"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBV537PBLCGsMbm2RalVC0mgsHLVSU9Rms"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

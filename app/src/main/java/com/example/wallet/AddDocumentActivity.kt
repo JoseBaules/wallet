@@ -1,5 +1,4 @@
 package com.example.wallet
-
 import android.content.Intent
 import android.os.Bundle
 import android.widget.LinearLayout
@@ -50,11 +49,6 @@ class AddDocumentActivity : AppCompatActivity() {
             val intent = Intent(this, AddTransitPassActivity::class.java)
             startActivity(intent)
         }
-
-
-
-
-
 
     }
 }

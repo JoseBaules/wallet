@@ -51,4 +51,5 @@
     <string name="save_passport">Save Passport</string>
     <string name="search_documents">Search documents...</string>
     <string name="add_document">Add Document</string>
+    <string name="sign_in">Sign In</string>
 </resources>
