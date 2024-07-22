@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">wallet</string>
+    <string name="app_name">DocStore</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
     <string name="second_fragment_label">Second Fragment</string>
@@ -52,4 +52,14 @@
     <string name="search_documents">Search documents...</string>
     <string name="add_document">Add Document</string>
     <string name="sign_in">Sign In</string>
+    <string name="please_wait">Please Wait...</string>
+    <string name="please_click_back_again_to_exit">Please click back again to exit.</string>
+    <string name="name">Enter your name</string>
+    <string name="email">Enter your email</string>
+    <string name="password">Enter your password</string>
+    <string name="sign_up">Welcome to DocSafe</string>
+    <string name="sign_up_description_text">Securely store and manage your personal documents.</string>
+    <string name="sign_up_button">Sign Up</string>
+    <string name="let_s_get_started_text">Welcome to DocSafe\n</string>
+    <string name="intro_text_description">Securely store and manage your personal documents.</string>
 </resources>
