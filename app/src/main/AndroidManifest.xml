@@ -12,14 +12,20 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Wallet"
         tools:targetApi="31">
-        <activity android:name=".IntroActivity"
-            android:screenOrientation="portrait"
+        <activity
+            android:name=".ShowIDCardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ShowPassportActivity"
+            android:exported="false" />
+        <activity
+            android:name=".IntroActivity"
             android:exported="true"
-            >
-
+            android:screenOrientation="portrait">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
@@ -59,9 +65,7 @@
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name"
-            android:theme="@style/Theme.Wallet">
-
-        </activity>
+            android:theme="@style/Theme.Wallet" />
     </application>
 
 </manifest>
