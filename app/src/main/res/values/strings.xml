@@ -5,6 +5,10 @@
     <string name="second_fragment_label">Second Fragment</string>
     <string name="next">Next</string>
     <string name="previous">Previous</string>
+    
+    <string name="subscriptionKey">0972405e5ec849c1835067e64ff6e813</string>
+    <string name="endpoint_azure">https://experimental-wallet-pa.cognitiveservices.azure.com/</string>
+
 
     <string name="lorem_ipsum">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
